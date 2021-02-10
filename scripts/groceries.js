@@ -113,7 +113,7 @@ function restrictListProducts(prods, restriction) {
 	});
 	return product_names;
 }
-
+ 
 // Calculate the total price of items, with received parameter being a list of products
 function getTotalPrice(chosenProducts) {
 	chosenWithoutPrice = [];
