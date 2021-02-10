@@ -1,0 +1,108 @@
+/* This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp> */
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color:dimgray;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  margin-left: 30px;
+  margin-right: 30px;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#tit {
+  text-align:center;
+  color:darkslateblue;
+} 
+
+.tablinks {
+  font-size: medium;
+  color: white;
+}
+
+.button {
+  background-color: pink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+}
+
+.button:hover{
+  box-shadow: 0 5px 8px 0 rgba(26, 25, 25, 0.24), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+
+#Client {
+  text-align: center;
+}
+
+#Products {
+  text-align: center;
+}
+
+#Cart {
+  text-align: center;
+}
+
+#displayProduct{
+  margin-left: 45%;
+  margin-right: 40%;
+  text-align: left;
+}
+
+#displayCart{
+  margin-left: 47%;
+  margin-right: 40%;
+  text-align: left;
+}
+
+
+#sig{
+  text-align: right;
+  color: red;
+  font-size: small;
+  font-style: italic;
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  height:100px;
+}
+
+
