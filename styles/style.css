@@ -1,0 +1,134 @@
+
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+/* Bootstrap default font-family is Helvetica Neue */
+
+
+/* .navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: black;
+}
+
+
+.navbar-light .nav-item.active {
+  color: black;
+} */
+
+body {
+  background-color: rgb(217, 224, 224);
+}
+
+
+#title {
+  /* font-family: Brush Script MT, Brush Script Std, cursive; */
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 1cm;
+}
+
+.nav-item .nav-link{
+  margin-left: 50px;
+}
+
+#navbarSupportedContent {
+  margin-left: 100px;
+}
+
+.col-md-6 .center {
+  margin-top:15%;
+}
+
+.btn {
+  border-radius: 0%;
+}
+
+.footer {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* .container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+} */
+
+/* h1, h2, p {
+  margin: 0;
+} */
+
+#footer-container {
+  margin-top: 25px;
+}
+
+/* .jumbotron {
+  margin-top: 0px;
+  margin-bottom: 0px;
+} */
+
+.img-fluid {
+  width: 100%;
+}
+
+.footer-title {
+  position: relative;
+  background: rgb(107, 104, 101);
+  border-radius: 2px;
+  border: 2px solid #505050;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(187, 197, 197);
+} 
+
+.ul-text {
+  color: rgb(187, 197, 197);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-top: 2px;
+}
+
+.footer-link {
+  color: rgb(187, 197, 197);
+}
+
+#feedback-button {
+  margin-left: 30%;
+}
+
+
+
+.ul-center{
+  margin-top: 30px;
+  /* margin-left: 30%; */
+  text-align: center;
+  font-size: large;
+}
+
+.negative{
+  display: none;
+}
+
+/* .date {
+  margin-top: -10px;
+} */
+
+.showInput {
+  background-color: rgba(119, 107, 141, 0.062);
+}
+
+.nav-link .active{
+  color:white;
+}
+
+#radio1 {
+  color:rgb(107, 104, 101);
+}
